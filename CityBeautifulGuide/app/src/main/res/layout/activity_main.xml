@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.citybeautifulguide.MainActivity">
+
+
+       <TextView
+                android:id="@+id/temples"
+                android:text="@string/temples"
+                android:background = "#228B22"
+                style="@style/CategoryStyle" />
+
+
+        <TextView
+                android:id="@+id/gardens"
+                android:text="@string/gardens"
+                android:background = "#7CFC00"
+                style="@style/CategoryStyle"/>
+
+        <TextView
+                android:id="@+id/museums"
+                android:text="@string/museums"
+                android:background = "#8FBC8F"
+                style="@style/CategoryStyle"/>
+
+        <TextView
+                android:id="@+id/adventure"
+                android:text="@string/adventure"
+                android:background = "#00FA9A"
+                style="@style/CategoryStyle" />
+
+        <TextView
+                android:id="@+id/restaurants"
+                android:text="@string/restaurants"
+                android:background = "#20B2AA"
+                style="@style/CategoryStyle" />
+
+</LinearLayout>

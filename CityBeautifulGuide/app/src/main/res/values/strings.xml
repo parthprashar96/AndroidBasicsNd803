@@ -1,0 +1,68 @@
+<resources>
+ <!--These are activities of the app-->
+    <string name="app_name">CityBeautifulGuide</string>
+    <string name="adventure">Adventure</string>
+    <string name="gardens">Gardens</string>
+    <string name="museums">Museums</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="temples">Temples</string>
+<!--These are prominent locations-->
+  <string name="chandigarh">Chandigarh</string>
+  <string name="panchkula">Panchkula</string>
+  <string name="mohali">Mohali</string>
+<!--These are strings used in Adventure -->
+    <string name="ad_loc_1">Sukhna Lake</string>
+    <string name="ad_1">Kayaking</string>
+    <string name="ad_2">Jungle Trek</string>
+    <string name="ad_3">Snooker</string>
+    <string name="ad_4">Paintball</string>
+    <string name="ad_5">Bowling</string>
+    <string name="ad_6">Water Slides</string>
+    <string name="ad_7">Go Carting</string>
+    <string name="ad_8">Rollercoaster</string>
+    <string name="ad_9">Shooting</string>
+    <string name="ad_10">Golf</string>
+<!--The following strings belong to gardens  -->
+    <string name="rock_garden">Rock Garden</string>
+    <string name="rose_garden">Rose Garden</string>
+    <string name="cactus_garden">Cactus Garden</string>
+    <string name="silence_garden">Garden of Silence</string>
+    <string name="topiary_garden">Topoiary Park</string>
+    <string name="japanese_garden">Japanese Garden</string>
+    <string name="botanical_garden">Botanical Garden</string>
+    <string name="fragrance_garden">Garden of Fragrance</string>
+<!--The following strings belong to Museums-->
+    <string name="m1">Government Museum and Art Gallery</string>
+    <string name="m2">International Dolls Museum</string>
+    <string name="m3">Le Corbusier Center</string>
+    <string name="m4">Museum Of Science</string>
+    <string name="m5">Balongi Sikh Museums</string>
+    <string name="m6">Government Architecture Museum</string>
+    <string name="m7">Natural History Museum</string>
+    <string name="m8">High Court Museum</string>
+    <string name="m9">Kala Sagar</string>
+    <string name="m10">Horticulture Museum</string>
+<!--The following strings belong to Temples-->
+    <string name="t1">Mata Mansa Devi</string>
+    <string name="t2">Saketri Temple</string>
+    <string name="t3">Sanatan Dharam Mandir</string>
+    <string name="t4">ISKCON Chandigarh Temple</string>
+    <string name="t5">Kali Mata Mandir</string>
+    <string name="t6">Prachin Shri Hanuman Mandir</string>
+    <string name="t7">Prachin Shiv Mandir</string>
+    <string name="t8">Nada Sahib</string>
+    <string name="t9">Christ The King Cathedral</string>
+    <string name="t10">Manimajra Juma Masjid</string>
+<!--The following strings belong to Temples -->
+    <string name="r1">Pal Dhaba Chandigarh</string>
+    <string name="r2">Sindhi Sweets</string>
+    <string name="r3">Gopal Sweets</string>
+    <string name="r4">Anupam Sweets</string>
+    <string name="r5">The Lalit Chandigarh</string>
+    <string name="r6">Deluxe Dhaba</string>
+    <string name="r7">Mainland China</string>
+    <string name="r8">Sundarams South Indian Food</string>
+    <string name="r9">Pirates Of Grill</string>
+    <string name="r10">Virgin Courtyard</string>
+
+</resources>

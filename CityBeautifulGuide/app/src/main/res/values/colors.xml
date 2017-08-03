@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="primary_color">#4A312A</color>
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <color name="adventure">#FD8E09</color>
+    <color name="restaurants">#9900C0</color>
+    <color name="gardens">#379237</color>
+    <color name="temples">#DC143C</color>
+    <color name="museums">#CCCC00</color>
+</resources>
