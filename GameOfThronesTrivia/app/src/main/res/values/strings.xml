@@ -1,0 +1,46 @@
+    <resources>
+        <string name="app_name">GOT_Trivia</string>
+        <string name="Name">** Name **</string>
+
+        <string name="Q1."> Q1.Which one of the following are Lannisters?</string>
+        <string name="q1c1">Jamie</string>
+        <string name="q1c2">Theon</string>
+        <string name="q1c3">Cersei</string>
+        <string name="q1c4">Tyrion</string>
+
+        <string name="Q2."> Q2.Who are the parents of Jon Snow?</string>
+        <string name="q2c1">Ned Stark</string>
+        <string name="q2c2">Lynna Stark</string>
+        <string name="q2c3">Ellia Martell</string>
+        <string name="q2c4">Rhaegar Targaryen</string>
+
+        <string name="Q3."> Q3.Identify the sigil.</string>
+        <string name="q3r1">Baratheon</string>
+        <string name="q3r2">Targaryen</string>
+        <string name="q3r3">Greyjoy</string>
+        <string name="q3r4">Tully</string>
+
+        <string name="Q4."> Q4.What is name of Arya`s direwolf?</string>
+        <string name="q4r1">Lady</string>
+        <string name="q4r2">Nymeria</string>
+        <string name="q4r3">Ghost</string>
+        <string name="q4r4">Summer</string>
+
+        <string name="Q5."> Q5.Who is the Hand of the King in beginning of Season 1? </string>
+        <string name="q5r1">Ned Stark</string>
+        <string name="q5r2">Petyr Baelish</string>
+        <string name="q5r3">Jon Arryn</string>
+        <string name="q5r4">Tywin Lannister</string>
+
+        <string name="Q6."> Q6.How many children does Ned Stark have?</string>
+        <string name="q6r1">5</string>
+        <string name="q6r2">6</string>
+        <string name="q6r3">4</string>
+        <string name="q6r4">7</string>
+
+        <string name="Q7."> Q7.What is real name of Daenerys Targaryen?</string>
+
+        <string name="submitQuiz">Submit</string>
+        <string name="text_ans">Name</string>
+
+    </resources>
