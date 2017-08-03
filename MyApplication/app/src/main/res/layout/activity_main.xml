@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/club">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/after" />
+
+        <TextView
+            android:id="@+id/after"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:paddingBottom="12dp"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="8dp"
+            android:text="AFTERHOURS CLUB"
+            android:textColor="#ffffff"
+            android:background="#000"
+            android:fontFamily="bold"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"  />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/address"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/time" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="8pm to 3am.Couple entry only"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:textStyle="italic|bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/after"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/after"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="Sector -5,Panchkula"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time"
+            android:layout_toRightOf="@+id/phone"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="9876543210"
+            android:autoLink="phone"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:autoLink="email"
+            android:text="hithere@email.com"
+            android:textSize="20sp"
+            android:layout_below="@+id/number"
+            android:layout_toRightOf="@+id/mail"
+            android:layout_toEndOf="@+id/mail"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/mail"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/number"
+            android:layout_toStartOf="@+id/number" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/phone"
+            android:layout_below="@+id/time"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_alignEnd="@+id/textView5" />
+
+    </RelativeLayout>
+</ScrollView>
