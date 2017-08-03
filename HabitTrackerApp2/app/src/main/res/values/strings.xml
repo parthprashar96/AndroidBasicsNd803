@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HabitTrackerApp</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="action_save">Save</string>
+
+</resources>
