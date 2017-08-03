@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="searchActivity">Matching/suggestions</string>
+    <string name="hint">Enter title of book.</string>
+    <string name="authorName">"author name"</string>
+    <string name="book">"Book title"</string>
+    <string name="publisher">"Publisher name"</string>
+</resources>
