@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DailyPaper</string>
+    <string name="no_data_found">No data found </string>
+    <string name="reload">Reload</string>
+    <string name="no_connection">No internet found</string>
+</resources>
