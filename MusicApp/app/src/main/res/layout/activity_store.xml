@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This is StoreActivity of JukeBox app.It contains the artists whose songs are present in your device.
+   You can navigate to different activities using the buttons below. "
+    android:textColor="#ff0000"
+    android:textSize="15sp"
+    android:id="@+id/activity_main"
+    />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/artists"
+            android:layout_weight="1"
+            android:text="@string/artists"
+            android:textSize="10sp"
+            android:id="@+id/artists"
+            android:textAlignment="center"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/podcasts"
+            android:layout_weight="1"
+            android:text="@string/podcasts"
+            android:id="@+id/podcasts"
+            android:textSize="10sp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/search"
+            android:layout_weight="1"
+            android:text="@string/search"
+            android:textSize="10sp"
+            android:id="@+id/search"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/albums"
+            android:layout_weight="1"
+            android:text="@string/albums"
+            android:textSize="10sp"
+            android:id="@+id/albums"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/now_playing"
+            android:layout_weight="1"
+            android:text="@string/now_playing"
+            android:textSize="10sp"
+            android:id="@+id/now_playing"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="API  such as Android Pay can be used in this activity for the users to pay money to
+     purchase music online. Android Pay API offers a quick and easy path to enable secure, one touch payments in your app using your existing payment infrastructure.
+    Once you complete the integration with your app's payment processing flow, Android users will enjoy a rapid,
+       consistent checkout process with Android Pay. Also with recent demonetisation in India digital wallet such as Paytm have gained a lot of popularity and can be used.
+     Details of which can be found using this documentation : http://paywithpaytm.com/developer/paytm_api_doc/?target=integration-gui`de"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_below="@+id/activity_main"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

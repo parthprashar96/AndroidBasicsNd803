@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="This is the MainActivity of JukeBox app which is
+a Media Player app. It contains the following activities."
+        android:textColor="#ff0000"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/now_playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/now_playing"
+        android:text="@string/now_playing"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        />
+
+    <TextView
+        android:id="@+id/albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/albums"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@color/albums"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        />
+
+    <TextView
+        android:id="@+id/artists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/artists"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@color/artists"
+        android:textAlignment="center"
+        android:onClick="callArtists"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        />
+    <TextView
+        android:id="@+id/podcasts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/podcasts"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@color/podcasts"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        />
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@color/search"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:fontFamily="monospace"
+            android:paddingTop="@dimen/activity_vertical_margin"
+
+
+            />
+
+        <TextView
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/store"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:background="@color/store"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="now_playing">#FD8E09</color>
+
+    <color name="albums">#379237</color>
+
+
+    <color name="artists">#8800A0</color>
+
+
+    <color name="podcasts">#16AFCA</color>
+
+    <color name="search">#ff0000</color>
+
+    <color name="store">#fff080</color>
+    <color name="primary_color">#4A312A</color>
+
+    >
+    <color name="primary_dark_color">#2F1D1A</color>
+
+</resources>
